@@ -1154,3 +1154,6 @@ i try copy a bash elf file to tmp and then use it to gain access but at final i 
 ![48](./checker/48.png)
 And we are able to get root shell this time and also update updated bash file permissions for others.
 ![49](./checker/49.png)
+
+# root flag
+`152c06cc49f3e3befee6a9040d3b0475`
