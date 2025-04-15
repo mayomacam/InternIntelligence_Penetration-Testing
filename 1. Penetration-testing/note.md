@@ -136,7 +136,7 @@ Scanning completed at: 2025-03-31 07:06:05.487180
 Duration: 0:00:28.415678
 ```
 
-it was vulnerable so time to find exploit ![proof of concept](https://github.com/Karmakstylez/CVE-2024-6387).
+it was vulnerable so time to find exploit [proof of concept](https://github.com/Karmakstylez/CVE-2024-6387).
 ![14](./checker/14.png)
 
 and i waste much time here try to exploit it but test show it can be exploited but not in reality.
@@ -161,8 +161,8 @@ And finally got our creds.....
 2025-03-31 09:14:24,443 - INFO - Credenciais obtidas para: bob
 
 Credenciais encontradas:
-admin: $2y$10$lKCae0EIUNj6f96ZnLqnC.LbWqrBQCT1LuHEFht6PmE4yH75rpWya
-bob: $2y$10$yMypIj1keU.VAqBI692f..XXn0vfyBL7C1EhOs35G59NxmtpJ/tiy
+admin: ***************
+bob: *************
 ```
 and using john the ripper decrypted it....
 ```sh
@@ -176,7 +176,7 @@ Proceeding with single, rules:Single
 Press 'q' or Ctrl-C to abort, almost any other key for status
 Almost done: Processing the remaining buffered candidate passwords, if any.
 Proceeding with wordlist:/usr/share/john/password.lst
-cheerleader      (?)     
+*********      (?)     
 
 
 ```
@@ -1143,3 +1143,14 @@ int main() {
 }
 
 ```
+
+then i run the program using 2 ssh session
+### first try
+i try copy a bash elf file to tmp and then use it to gain access but at final i was missing something as i forgot so failed and try next one.
+![46](./checker/46.png)
+![47](./checker/47.png)
+
+### final try
+![48](./checker/48.png)
+And we are able to get root shell this time and also update updated bash file permissions for others.
+![49](./checker/49.png)
