@@ -83,15 +83,15 @@ got manifest.json page and got more info about app.
 ```
 
 got the bookstack version so download it according to it.
-![4](4.png)
+![4](./checker/4.png)
 
 and check files of bookstack applications.....
 
 ## robots.txt
-![5](5.png)
+![5](./checker/5.png)
 
 ## status file
-![6](6.png)
+![6](./checker/6.png)
 
 ```
 {"database":true,"cache":true,"session":true}
@@ -99,8 +99,8 @@ and check files of bookstack applications.....
 
 # /help/wysiwyg
 got shortcuts and license page.
-![7](7.png)
-![8](8.png)
+![7](./checker/7.png)
+![8](./checker/8.png)
 
 got nothing much next let's check port 8080.
 
@@ -110,10 +110,10 @@ got nothing much next let's check port 8080.
 
 let's check source code
 got a new subdomain, new css file and data.....
-![10](10.png)
+![10](./checker/10.png)
 
 while in burp we got base64 encoded data.....
-![11](11.png)
+![11](./checker/11.png)
 
 using cyberchef we got chiper text, iv, iteration and salt for it.....
 ```
@@ -151,7 +151,7 @@ as license was for between for 2009 to 2022 so we can be sure it's exploit come 
 ![17](./checker/17.png)
 
 And finally got our creds.....
-![18](./18.png)
+![18](./checker/18.png)
 
 ```sh
 ┌──(mayomacam㉿mayomacam)-[~/Documents/hackthebox/hard]
@@ -185,13 +185,13 @@ and i try it with user admin and bob and bob got logged in.
 ![19](./checker/19.png)
 
 and got ssh creds for bob..... 
-![20](20.png)
+![20](./checker/20.png)
 ```
 password: hiccup-publicly-genesis
 ```
 
 also got bob bookstack password.....
-![21](21.png)
+![21](./checker/21.png)
 
 ```
 password : mYSeCr3T_w1kI_P4sSw0rD
@@ -199,7 +199,7 @@ mail: bob@checker.htb
 ```
 
 also got bob profile and other infos
-![22](22.png)
+![22](./checker/22.png)
 
 ```
 api token: qXEsxMzqCQFsmCp8kjpshnG3u7ESjFrPhhzzMWC
