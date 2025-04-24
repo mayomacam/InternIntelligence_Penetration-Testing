@@ -1,0 +1,2 @@
+Hostname,IP Address,OpenSSH Version,Vulnerability Status
+checker.htb,10.10.11.56,OpenSSH 8.9p1 Ubuntu 3ubuntu0.10,Vulnerable to regreSSHion
