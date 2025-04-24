@@ -8,7 +8,7 @@ This project explores various penetration testing techniques, including:
 - **SQL injection**
 
 # Machine
-- **HTB - CHECKER"
+- **HTB - CHECKER**
 
 ## Tech Stack
 - **Programming Languages**: Python, C, Bash
