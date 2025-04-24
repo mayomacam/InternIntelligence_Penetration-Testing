@@ -7,6 +7,9 @@ This project explores various penetration testing techniques, including:
 - **Application Exploitation Bit by Bit**
 - **SQL injection**
 
+# Machine
+- **HTB - CHECKER"
+
 ## Tech Stack
 - **Programming Languages**: Python, C, Bash
 - **Tools Used**: Burp Suite, Visual studio code
